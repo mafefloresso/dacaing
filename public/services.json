@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "nombre": "Reparación de Laptops",
+    "imagen": "../assets/img/services/icon1.PNG"
+  },
+  {
+    "id": 2,
+    "nombre": "Mantenimiento de Celulares",
+    "imagen": "assets/img/servicios/mantenimiento-celular.jpg"
+  }
+]
