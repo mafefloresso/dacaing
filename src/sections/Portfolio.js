@@ -32,6 +32,7 @@ function Portfolio() {
               <img
                 key={i}
                 src={img.src}
+                alt=""
                 onClick={() => setIndex(i)}
                 style={{
                   width: "100%",

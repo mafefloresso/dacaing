@@ -37,7 +37,7 @@ function Contact() {
 
           <div className="col-lg-3">
             <div className="info-item d-flex" >
-              <a href=""><i class="bi bi-whatsapp"></i></a>
+              <button><i class="bi bi-whatsapp"></i></button>
               <div className="d-flex align-items-center">
                 <h3>WhatsApp</h3>
               </div>
@@ -46,7 +46,7 @@ function Contact() {
 
           <div className="col-lg-3">
             <div className="info-item d-flex">
-              <a href=""><i className="bi bi-facebook"></i></a>
+              <button><i className="bi bi-facebook"></i></button>
               <div className="d-flex align-items-center">
                 <h3>Facebook</h3>
               </div>

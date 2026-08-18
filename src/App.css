@@ -513,7 +513,7 @@ section,
   font-size: 14px;
 }
 
-.contact .info-item a {
+.contact .info-item button {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   background-color: color-mix(in srgb, var(--default-color) 5%, white 10%);
   display: flex;
@@ -524,12 +524,13 @@ section,
   border-radius: 4px;
   font-size: 20px;
   margin-right: 10px;
+  border: none;
 
   transition: 0.3s;
 }
 
 @media (max-width: 768px) {
-  .contact .info-item a {
+  .contact .info-item button {
     margin-top: 3vh;
   }
 }
@@ -558,7 +559,7 @@ section,
   text-align: left;
 }
 
-.contact .info-item a:hover {
+.contact .info-item button:hover {
   background: var(--accent-color);
   color: var(--contrast-color);
 }
